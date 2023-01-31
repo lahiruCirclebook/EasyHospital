@@ -34,6 +34,9 @@ Route::get('/about', function () {
     return view('aboutus');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
 //user
 Route::post('registered', [UserController::class, 'register']);
 Route::post('/login', [UserController::class, 'login']);
