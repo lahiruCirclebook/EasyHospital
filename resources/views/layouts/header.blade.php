@@ -111,11 +111,7 @@
 
 
 
-                            <li class="nav-item"><a class="button-50 text-light" href="{{ url('/') }}">Home</a>
-                            </li>
-
-                            <li class="nav-item"><a class="button-50 text-light"
-                                    href="{{ url('/services') }}">Services</a>
+                            <li class="nav-item"><a class="button-50 text-light" href="{{ url('/home') }}">Home</a>
                             </li>
 
 

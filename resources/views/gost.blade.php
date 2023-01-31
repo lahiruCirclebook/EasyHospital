@@ -2,8 +2,7 @@
     $id = session('id');
     $role = session('role');
 @endphp
-@if (empty($id))
-@else
+@if (!empty($id))
     @include('layouts.app')
 
     @include('layouts.appStyles')
@@ -125,7 +124,8 @@
                                     </p>
 
                                     <div class="footer-social">
-                                        <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="btn grd1" style="margin-top: 20px"><i
+                                                class="fa fa-facebook"></i></a>
 
                                     </div>
                                 </div>
@@ -154,7 +154,8 @@
                                     </p>
 
                                     <div class="footer-social">
-                                        <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="btn grd1" style="margin-top: 20px"><i
+                                                class="fa fa-facebook"></i></a>
 
                                     </div>
                                 </div>
@@ -171,4 +172,6 @@
     </body>
 
     </html>
+@else
+    @include('layouts.noUser')
 @endif

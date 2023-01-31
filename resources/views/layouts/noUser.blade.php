@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Session Expired ! | Awakaza</title>
+    <title>Session Expired ! | E Rats</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Awakaza" name="description" />
     <meta content="Circlebook (PVT) Ltd" name="author" />
@@ -34,7 +34,7 @@
                         <h3 class="display-5 fw-medium">Your Session has Expired</i></h3>
 
                         <div class="mt-5 text-center">
-                            <a class="btn btn-primary waves-effect waves-light" href="{{ url('/login') }}">Back to
+                            <a class="btn btn-primary waves-effect waves-light" href="{{ url('/') }}">Back to
                                 Login</a>
                         </div>
 
@@ -44,7 +44,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-8 col-xl-6">
                     <div>
-                        <img src="public/assets/img/error-img.png" alt="" class="img-fluid">
+                        <img src="assets/images/layouts/tttt.gif" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

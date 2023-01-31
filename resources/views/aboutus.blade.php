@@ -2,8 +2,7 @@
     $id = session('id');
     $role = session('role');
 @endphp
-@if (empty($id))
-@else
+@if (!empty($id))
     @include('layouts.app')
 
     @include('layouts.appStyles')
@@ -72,4 +71,6 @@
     </body>
 
     </html>
+@else
+    @include('layouts.noUser')
 @endif
