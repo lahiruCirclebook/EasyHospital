@@ -26,6 +26,10 @@ Route::get('/home', function () {
     return view('main');
 });
 
+Route::get('/gosts', function () {
+    return view('gost');
+});
+
 //user
 Route::post('registered', [UserController::class, 'register']);
 Route::post('/login', [UserController::class, 'login']);

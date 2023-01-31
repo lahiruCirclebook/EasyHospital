@@ -114,19 +114,21 @@
                             <li class="nav-item"><a class="button-50 text-light" href="{{ url('/') }}">Home</a>
                             </li>
 
-                            <li class="nav-item"><a class="button-50 text-light" href="{{ url('/#') }}">Services</a>
+                            <li class="nav-item"><a class="button-50 text-light"
+                                    href="{{ url('/services') }}">Services</a>
                             </li>
 
 
-                            <li class="nav-item"><a class="button-50 text-light" href="{{ url('#') }}">Doctors</a>
+                            <li class="nav-item"><a class="button-50 text-light" href="{{ url('/gosts') }}">Films</a>
                             </li>
 
 
-                            <li class="nav-item"><a class="button-50 text-light" href="{{ url('/#') }}">About
+                            <li class="nav-item"><a class="button-50 text-light" href="{{ url('/about') }}">About
                                     us</a></li>
 
 
-                            <li class="nav-item"><a class="button-50 text-light" href="{{ url('#') }}">Contact</a>
+                            <li class="nav-item"><a class="button-50 text-light"
+                                    href="{{ url('/contact') }}">Contact</a>
                             </li>
 
 
@@ -142,7 +144,7 @@
 
                             <li class="nav-item">
                                 <span class=""><i class="fa fa-volume-control-phone" aria-hidden="true"
-                                        style="color: white"></i></span>
+                                        style="color: white; margin-top: 10px"></i></span>
                                 <span><a href="tel:" style="color: white">94 761 609 125</a></span>
                             </li>
 
