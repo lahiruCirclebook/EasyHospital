@@ -30,6 +30,10 @@ Route::get('/gosts', function () {
     return view('gost');
 });
 
+Route::get('/about', function () {
+    return view('aboutus');
+});
+
 //user
 Route::post('registered', [UserController::class, 'register']);
 Route::post('/login', [UserController::class, 'login']);
